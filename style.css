@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.learn{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#button{
+  width: 100px;
+  height: 70px; 
+}
+
+#justAnotherDiv p{
+  color: #D57A66;
+  font-size: 22px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  size: 1%;
+}
+.links{
+  font-family: "Montserrat", "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#Assistant{
+  padding-bottom: 20px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1F7A8F;
+}
+
+a{
+  cursor: pointer;
+}
+
+#justAnotherDiv h1{
+  color: #fff
+}
+
+#sub-heading{
+  color: #fff;
+}
+
+#justAnotherDiv{
+  position: relative;
+  padding-left:28px;
+  top: 100px
+}
+
+.links:hover{
+  color: #69353F;
+}
+
+h1{
+  font-size: 32px;
+}
+
+li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.link:hover{
+  color: #BFFFBC
+}
+
+footer{
+  background-color: #000;
+  color: #aab5ad;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#container{
+  min-height: 100%;
+  color: #000;
+  font-family: "Anton", "Rubik", "Montserrat", sans-serif;
+  font-weight: 1000;
+}
+
+#main{
+  padding-bottom: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+}
+
+.link{
+  text-decoration: none;
+  color: #aab5ad
+}
+
+#social-media{
+  position: relative;
+  left:180px;
+  bottom: 90px;
+}
+
+h3{
+  padding-bottom: 10px;
+}
+
+#psaLogo{
+  border-radius: 15px;
+}
+
+#Assistant{
+  padding-bottom: 20px;
+}
+
+#chipPic{
+  position: relative;
+  left: 250px;
+}
+
+#shirtPic{
+  position: relative;
+  left: 300px;
+}
+
+#bionaPic{
+  border-style: solid;
+  border-width: 37.5px;
+  border-color: #AEDCC0;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------*/
+/*RUKAIYAH'S PAGE*/
+/*
+----------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+*/
+* {
+  box-sizing: border-box;
+}
+
+.logoCon {
+  border-radius: 10px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the container/contact section */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------*/
+/* MADHAV'S PAGE */
+/*
+----------------------------------------------------------------------------------------------------------------------------------*/
+
+.head{
+    background-color: rgb(0, 89, 255, 0.692);
+    border-radius: 1000px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* font-family: Segoe UI;*/
+}
+
+
+.p {
+    border-radius: 35px;
+    font-stretch: ultra-condensed;
+    font-size: 27px;
+    padding-left: 100px ;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 31px;
+    font-weight: 700;
+    font-family: Segoe UI, sans-serif;
+    text-align: justify;
+    color:  rgb(255, 255, 255);
+}
+
+.p1{
+    border-radius: 35pxpx;
+    font-stretch: ultra-condensed;
+    font-size: 27px;
+    padding: 100px;
+    font-family: Segoe UI, sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    top: 125px;
+}
+
+.header{
+  color: #fff
+}
+
+#images{
+  position: relative;
+  bottom: 300px;
+}
+
+.footer {
+  margin-top: 4%;
+  margin-left: -0.4%;
+  background-color:#1F7A8F;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+}
+.footer {
+  margin-top: 4%;
+  margin-left: -0.4%;
+  background-color: #000;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+}
+.wraper {
+  margin: 0 auto;
+  height: 500px;
+  width: 1000px;
+  display: grid;
+  grid-template-areas:'colmn2 colmn1';
+  grid-column-gap: 10%;
+}
+.logo2 {
+  padding-top: 20px;
+}
+.foot {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 25%;
+}
+.foot a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+.foot li {
+  margin: 20px 0;
+}
+.icon-nav {
+  list-style-type: none;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+}
+.icon-nav a {
+  color: white;
+  text-decoration:none;
+}
+.icon-nav li , .icon-nav2 li{
+  float: left;
+  padding: 10px;
+}
+.icon-nav2 {
+  list-style-type: none;
+}
+.foot-note {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 10px;
+}
+.foot-head {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 40px;
+}
+.foot-copyright {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 20px;
+  margin-top: 35%;
+}
+.mail {
+  display: inline-block;
+  color: #fff;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  height: 40px;
+  width: 300px;
+  border: 0.3px solid grey;
+  padding: 10px 53px;
+  background-image: url('envelope.jpg');
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+}
+.mail:focus {
+  outline: none;
+}
+.colmn2 {
+  grid-area: colmn2;
+}
+.colmn1 {
+  grid-area: colmn1;
+}
+.header {
+  text-align: center;
+  margin: 3% 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #000;
+}
+.about-p{
+  padding: 0 10%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: #838b8b;
+}
+#Portable , #heading ,{
+  text-align: center;
+
+}
+.foot-sub {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px;
+}
